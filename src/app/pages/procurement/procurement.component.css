@@ -292,7 +292,7 @@
   align-self: inherit;
   text-align: center;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 0px;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
   background-color: rgb(55, 5, 17);
@@ -331,7 +331,7 @@
   align-self: inherit;
   text-align: center;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 0px;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
   background-color: rgb(55, 5, 17);
@@ -370,7 +370,7 @@
   align-self: inherit;
   text-align: center;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 0px;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
   background-color: rgb(55, 5, 17);
