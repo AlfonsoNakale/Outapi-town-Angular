@@ -7,10 +7,10 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['news-events.component.css'],
 })
 export class NewsEvents {
-  rawmqxg: string = ' '
-  raw9o7b: string = ' '
-  rawoice: string = ' '
-  rawahq7: string = ' '
+  rawgjc9: string = ' '
+  raw483g: string = ' '
+  rawb8tm: string = ' '
+  rawajw8: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('News-events - Outapi-town')
