@@ -7,9 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['procurement.component.css'],
 })
 export class Procurement {
-  rawpot7: string = ' '
-  rawn3xo: string = ' '
-  rawnukl: string = ' '
+  rawnybw: string = ' '
+  rawuq2a: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Procurement - Outapi-town')

@@ -28,9 +28,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.procurement-navlink {
+  display: contents;
+}
 .procurement-image {
   width: 50px;
   object-fit: cover;
+  text-decoration: none;
 }
 .procurement-right-side {
   display: flex;
@@ -44,26 +48,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.procurement-text {
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.procurement-text:hover {
-  color: var(--dl-color-primary-100);
-}
-.procurement-navlink {
-  color: #ffffff;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.procurement-navlink:hover {
-  color: var(--dl-color-primary-100);
-}
 .procurement-navlink01 {
   color: rgb(255, 255, 255);
   cursor: pointer;
@@ -75,7 +59,7 @@
   color: var(--dl-color-primary-100);
 }
 .procurement-navlink02 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
@@ -112,6 +96,26 @@
   text-decoration: none;
 }
 .procurement-navlink05:hover {
+  color: var(--dl-color-primary-100);
+}
+.procurement-navlink06 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.procurement-navlink06:hover {
+  color: var(--dl-color-primary-100);
+}
+.procurement-navlink07 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.procurement-navlink07:hover {
   color: var(--dl-color-primary-100);
 }
 .procurement-burger-menu {
@@ -177,13 +181,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.procurement-text {
+  margin-bottom: 8px;
+}
 .procurement-text01 {
   margin-bottom: 8px;
 }
 .procurement-text02 {
-  margin-bottom: 8px;
-}
-.procurement-text03 {
   margin-bottom: 8px;
 }
 .procurement-link {
@@ -195,7 +199,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.procurement-text05 {
+.procurement-text04 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .procurement-icons-container {
@@ -244,7 +248,7 @@
   align-items: center;
   flex-direction: column;
 }
-.procurement-text06 {
+.procurement-text05 {
   color: rgb(255, 255, 255);
 }
 .procurement-main {
@@ -276,14 +280,14 @@
   border-right-width: 0px;
   border-bottom-width: 2px;
 }
-.procurement-text07 {
+.procurement-text06 {
   color: var(--dl-color-primary-100);
   font-size: 18px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.procurement-text08 {
+.procurement-text07 {
   text-align: center;
 }
 .procurement-button {
@@ -315,14 +319,14 @@
   border-right-width: 0px;
   border-bottom-width: 2px;
 }
-.procurement-text09 {
+.procurement-text08 {
   color: var(--dl-color-primary-100);
   font-size: 18px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.procurement-text10 {
+.procurement-text09 {
   text-align: center;
 }
 .procurement-button1 {
@@ -354,14 +358,14 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.procurement-text20 {
+.procurement-text19 {
   color: var(--dl-color-primary-100);
   font-size: 18px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.procurement-text21 {
+.procurement-text20 {
   text-align: center;
 }
 .procurement-button2 {
@@ -424,22 +428,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.procurement-link07 {
-  text-decoration: none;
-}
 .procurement-container2 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
   flex-direction: column;
-}
-.procurement-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.procurement-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
 }
 .procurement-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
@@ -450,6 +443,14 @@
   text-decoration: none;
 }
 .procurement-navlink10 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.procurement-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.procurement-navlink12 {
   text-decoration: none;
 }
 .procurement-follow-container1 {
@@ -460,7 +461,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.procurement-text35 {
+.procurement-text32 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .procurement-icons-container1 {
@@ -470,7 +471,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.procurement-link08 {
+.procurement-link07 {
   display: contents;
 }
 .procurement-icon11 {
@@ -478,7 +479,7 @@
   width: 24px;
   height: 24px;
 }
-.procurement-link09 {
+.procurement-link08 {
   display: contents;
 }
 .procurement-icon13 {
@@ -486,7 +487,7 @@
   width: 24px;
   height: 24px;
 }
-.procurement-link10 {
+.procurement-link09 {
   display: contents;
 }
 .procurement-icon15 {
@@ -522,7 +523,7 @@
   .procurement-content-container {
     align-items: center;
   }
-  .procurement-text06 {
+  .procurement-text05 {
     font-size: 2.5rem;
   }
   .procurement-main {
@@ -542,7 +543,7 @@
   }
 }
 @media(max-width: 479px) {
-  .procurement-text06 {
+  .procurement-text05 {
     font-size: 2rem;
     text-align: center;
   }
@@ -560,19 +561,10 @@
   .procurement-link06 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .procurement-link07 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
   .procurement-container2 {
     height: 100%;
     align-items: flex-start;
     margin-left: 50px;
-  }
-  .procurement-navlink06 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .procurement-navlink07 {
-    margin-bottom: var(--dl-space-space-halfunit);
   }
   .procurement-navlink08 {
     margin-bottom: var(--dl-space-space-halfunit);
@@ -581,6 +573,12 @@
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .procurement-navlink10 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .procurement-navlink11 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .procurement-navlink12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .procurement-follow-container1 {
