@@ -51,6 +51,7 @@
 }
 .landing-page-navlink1 {
   color: #ffffff;
+  cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
