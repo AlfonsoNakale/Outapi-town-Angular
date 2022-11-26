@@ -7,9 +7,11 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
-    path: 'about-us',
+    path: 'contact-us',
     loadChildren: () =>
-      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
+      import('./pages/contact-us/contact-us.module').then(
+        (m) => m.ContactUsModule
+      ),
   },
   {
     path: '',
@@ -17,6 +19,35 @@ const routes = [
       import('./pages/landing-page/landing-page.module').then(
         (m) => m.LandingPageModule
       ),
+  },
+  {
+    path: 'services',
+    loadChildren: () =>
+      import('./pages/services/services.module').then((m) => m.ServicesModule),
+  },
+  {
+    path: 'procurement',
+    loadChildren: () =>
+      import('./pages/procurement/procurement.module').then(
+        (m) => m.ProcurementModule
+      ),
+  },
+  {
+    path: 'news-events',
+    loadChildren: () =>
+      import('./pages/news-events/news-events.module').then(
+        (m) => m.NewsEventsModule
+      ),
+  },
+  {
+    path: 'about-us',
+    loadChildren: () =>
+      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
+  },
+  {
+    path: 'login',
+    loadChildren: () =>
+      import('./pages/login/login.module').then((m) => m.LoginModule),
   },
 ]
 

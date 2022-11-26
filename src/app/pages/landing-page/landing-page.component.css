@@ -44,8 +44,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-navlink {
+.landing-page-text {
   color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.landing-page-text:hover {
+  color: var(--dl-color-primary-100);
+}
+.landing-page-navlink {
+  color: #ffffff;
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
@@ -54,54 +64,54 @@
 .landing-page-navlink:hover {
   color: var(--dl-color-primary-100);
 }
-.landing-page-navlink1 {
-  color: #ffffff;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.landing-page-navlink1:hover {
-  color: var(--dl-color-primary-100);
-}
-.landing-page-navlink2 {
+.landing-page-navlink01 {
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.landing-page-navlink2:hover {
+.landing-page-navlink01:hover {
   color: var(--dl-color-primary-100);
 }
-.landing-page-navlink3 {
+.landing-page-navlink02 {
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.landing-page-navlink3:hover {
+.landing-page-navlink02:hover {
   color: var(--dl-color-primary-100);
 }
-.landing-page-navlink4 {
+.landing-page-navlink03 {
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.landing-page-navlink4:hover {
+.landing-page-navlink03:hover {
   color: var(--dl-color-primary-100);
 }
-.landing-page-navlink5 {
+.landing-page-navlink04 {
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.landing-page-navlink5:hover {
+.landing-page-navlink04:hover {
+  color: var(--dl-color-primary-100);
+}
+.landing-page-navlink05 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.landing-page-navlink05:hover {
   color: var(--dl-color-primary-100);
 }
 .landing-page-burger-menu {
@@ -167,13 +177,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text {
-  margin-bottom: 8px;
-}
 .landing-page-text01 {
   margin-bottom: 8px;
 }
 .landing-page-text02 {
+  margin-bottom: 8px;
+}
+.landing-page-text03 {
   margin-bottom: 8px;
 }
 .landing-page-link {
@@ -185,7 +195,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text04 {
+.landing-page-text05 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .landing-page-icons-container {
@@ -234,7 +244,7 @@
   align-items: center;
   flex-direction: column;
 }
-.landing-page-text05 {
+.landing-page-text06 {
   color: #ffffff;
 }
 .landing-page-subheading {
@@ -244,15 +254,16 @@
   text-transform: none;
   text-decoration: none;
 }
-.landing-page-text06 {
+.landing-page-text07 {
   color: #ffffff;
   width: auto;
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
 }
-.landing-page-navlink6 {
+.landing-page-navlink06 {
   color: rgb(255, 255, 255);
+  cursor: pointer;
   align-self: inherit;
   text-align: center;
   font-weight: 400;
@@ -270,9 +281,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-quadruple);
   justify-content: flex-start;
-}
-.landing-page-text08 {
-  color: var(--dl-color-gray-500);
 }
 .landing-page-cards-container {
   width: 100%;
@@ -309,8 +317,9 @@
 .landing-page-text10 {
   text-align: center;
 }
-.landing-page-navlink7 {
+.landing-page-navlink07 {
   color: rgb(255, 255, 255);
+  cursor: pointer;
   align-self: inherit;
   text-align: center;
   font-weight: 400;
@@ -376,23 +385,23 @@
   margin-left: 100px;
   flex-direction: column;
 }
-.landing-page-link08 {
+.landing-page-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.landing-page-link09 {
+.landing-page-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.landing-page-link10 {
+.landing-page-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.landing-page-link11 {
+.landing-page-navlink11 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.landing-page-link12 {
+.landing-page-navlink12 {
   text-decoration: none;
 }
 .landing-page-follow-container1 {
@@ -413,7 +422,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-link13 {
+.landing-page-link08 {
   display: contents;
 }
 .landing-page-icon11 {
@@ -421,7 +430,7 @@
   width: 24px;
   height: 24px;
 }
-.landing-page-link14 {
+.landing-page-link09 {
   display: contents;
 }
 .landing-page-icon13 {
@@ -429,7 +438,7 @@
   width: 24px;
   height: 24px;
 }
-.landing-page-link15 {
+.landing-page-link10 {
   display: contents;
 }
 .landing-page-icon15 {
@@ -459,10 +468,10 @@
   .landing-page-content-container {
     align-items: center;
   }
-  .landing-page-text05 {
+  .landing-page-text06 {
     font-size: 2.5rem;
   }
-  .landing-page-text06 {
+  .landing-page-text07 {
     text-align: center;
   }
   .landing-page-main {
@@ -482,7 +491,7 @@
   }
 }
 @media(max-width: 479px) {
-  .landing-page-text05 {
+  .landing-page-text06 {
     font-size: 2rem;
     text-align: center;
   }
@@ -512,19 +521,19 @@
     align-items: flex-start;
     margin-left: 50px;
   }
-  .landing-page-link08 {
+  .landing-page-navlink08 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .landing-page-link09 {
+  .landing-page-navlink09 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .landing-page-link10 {
+  .landing-page-navlink10 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .landing-page-link11 {
+  .landing-page-navlink11 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .landing-page-link12 {
+  .landing-page-navlink12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .landing-page-follow-container1 {
