@@ -45,9 +45,14 @@
   justify-content: space-between;
 }
 .landing-page-navlink {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
+}
+.landing-page-navlink:hover {
+  color: var(--dl-color-primary-100);
 }
 .landing-page-navlink1 {
   color: #ffffff;
@@ -59,21 +64,45 @@
 .landing-page-navlink1:hover {
   color: var(--dl-color-primary-100);
 }
-.landing-page-text {
-  color: #ffffff;
+.landing-page-navlink2 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
 }
-.landing-page-text01 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
+.landing-page-navlink2:hover {
+  color: var(--dl-color-primary-100);
 }
-.landing-page-text02 {
-  color: #ffffff;
+.landing-page-navlink3 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
 }
-.landing-page-text03 {
-  color: #ffffff;
+.landing-page-navlink3:hover {
+  color: var(--dl-color-primary-100);
+}
+.landing-page-navlink4 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
   margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.landing-page-navlink4:hover {
+  color: var(--dl-color-primary-100);
+}
+.landing-page-navlink5 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.landing-page-navlink5:hover {
+  color: var(--dl-color-primary-100);
 }
 .landing-page-burger-menu {
   display: none;
@@ -138,13 +167,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text04 {
+.landing-page-text {
   margin-bottom: 8px;
 }
-.landing-page-text05 {
+.landing-page-text01 {
   margin-bottom: 8px;
 }
-.landing-page-text06 {
+.landing-page-text02 {
   margin-bottom: 8px;
 }
 .landing-page-link {
@@ -156,7 +185,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text08 {
+.landing-page-text04 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .landing-page-icons-container {
@@ -205,7 +234,7 @@
   align-items: center;
   flex-direction: column;
 }
-.landing-page-text09 {
+.landing-page-text05 {
   color: #ffffff;
 }
 .landing-page-subheading {
@@ -215,12 +244,21 @@
   text-transform: none;
   text-decoration: none;
 }
-.landing-page-text10 {
+.landing-page-text06 {
   color: #ffffff;
   width: auto;
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-bottom: var(--dl-space-space-doubleunit);
+}
+.landing-page-navlink6 {
+  color: rgb(255, 255, 255);
+  align-self: inherit;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: rgb(55, 5, 17);
 }
 .landing-page-main {
   width: 100%;
@@ -233,7 +271,7 @@
   padding-bottom: var(--dl-space-space-quadruple);
   justify-content: flex-start;
 }
-.landing-page-text12 {
+.landing-page-text08 {
   color: var(--dl-color-gray-500);
 }
 .landing-page-cards-container {
@@ -248,7 +286,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text13 {
+.landing-page-text09 {
   text-align: center;
 }
 .landing-page-container1 {
@@ -268,18 +306,17 @@
   object-fit: cover;
   margin-left: 10px;
 }
-.landing-page-text14 {
+.landing-page-text10 {
   text-align: center;
 }
-.landing-page-navlink2 {
-  color: #ffffff;
+.landing-page-navlink7 {
+  color: rgb(255, 255, 255);
   align-self: inherit;
   text-align: center;
   font-weight: 400;
-  border-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 30px;
   text-decoration: none;
-  background-color: #370511;
+  background-color: rgb(55, 5, 17);
 }
 .landing-page-footer {
   color: var(--dl-color-gray-white);
@@ -366,7 +403,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-text17 {
+.landing-page-text13 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .landing-page-icons-container1 {
@@ -422,10 +459,10 @@
   .landing-page-content-container {
     align-items: center;
   }
-  .landing-page-text09 {
+  .landing-page-text05 {
     font-size: 2.5rem;
   }
-  .landing-page-text10 {
+  .landing-page-text06 {
     text-align: center;
   }
   .landing-page-main {
@@ -445,7 +482,7 @@
   }
 }
 @media(max-width: 479px) {
-  .landing-page-text09 {
+  .landing-page-text05 {
     font-size: 2rem;
     text-align: center;
   }
