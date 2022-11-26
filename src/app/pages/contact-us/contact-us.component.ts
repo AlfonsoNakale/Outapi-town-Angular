@@ -7,10 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['contact-us.component.css'],
 })
 export class ContactUs {
-  rawo2r3: string = ' '
-  rawf4dz: string = ' '
-  rawcxwn: string = ' '
-  rawi18q: string = ' '
+  rawpxzs: string = ' '
+  raw13or: string = ' '
+  rawmpyp: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Contact-us - Outapi-town')

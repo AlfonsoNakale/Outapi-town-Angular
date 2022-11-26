@@ -276,33 +276,28 @@
 .login-text09 {
   text-align: center;
 }
-.login-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.login-image1 {
+.login-form {
   width: 50%;
-  object-fit: cover;
-  margin-right: 10;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
-.login-image2 {
-  width: 47%;
-  object-fit: cover;
-  margin-left: 10px;
+.login-textinput {
+  width: 100%;
 }
-.login-text10 {
-  text-align: center;
+.login-textinput1 {
+  width: 100%;
 }
 .login-button {
   color: rgb(255, 255, 255);
   cursor: pointer;
   align-self: inherit;
+  margin-top: var(--dl-space-space-doubleunit);
   text-align: center;
   font-weight: 400;
-  border-radius: 30px;
+  border-radius: 0px;
   text-decoration: none;
   background-color: rgb(55, 5, 17);
 }
@@ -325,7 +320,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.login-image3 {
+.login-image1 {
   width: 100px;
   object-fit: cover;
 }
@@ -336,7 +331,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.login-container2 {
+.login-container1 {
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
@@ -358,7 +353,7 @@
 .login-link07 {
   text-decoration: none;
 }
-.login-container3 {
+.login-container2 {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
@@ -391,7 +386,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.login-text13 {
+.login-text14 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .login-icons-container1 {
@@ -462,7 +457,7 @@
     margin-bottom: var(--dl-space-space-tripleunit);
     justify-content: space-between;
   }
-  .login-container2 {
+  .login-container1 {
     margin-left: 0px;
   }
 }
@@ -488,7 +483,7 @@
   .login-link07 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .login-container3 {
+  .login-container2 {
     height: 100%;
     align-items: flex-start;
     margin-left: 50px;
