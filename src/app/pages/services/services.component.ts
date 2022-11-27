@@ -7,9 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['services.component.css'],
 })
 export class Services {
-  rawsc6k: string = ' '
-  rawq0xq: string = ' '
-  rawgpeh: string = ' '
+  rawh41u: string = ' '
+  rawk1lf: string = ' '
+  raw9imt: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Services - Outapi-town')

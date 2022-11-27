@@ -7,8 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['login.component.css'],
 })
 export class Login {
-  raw6wgi: string = ' '
-  rawywgt: string = ' '
+  raw3urh: string = ' '
+  rawn3sy: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Login - Outapi-town')
